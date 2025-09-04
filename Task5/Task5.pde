@@ -7,6 +7,7 @@ void setup() {
   The following method has an error in it. Fix the error and run it. 
 */
 
+// 5.a
 void methodOne()
 {
   int i = 1000; // You are not allowed to change this line. 
@@ -28,6 +29,8 @@ void methodOne()
   Finish the following method so that we can change the number assigned 
   to the weekday and it prints the correct output.  
 */
+
+//5.b
 void methodTwo() 
 {
   int weekDay = 0; // 0 = Monday, 6 = Sunday. 
