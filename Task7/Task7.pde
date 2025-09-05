@@ -5,7 +5,7 @@ int input = 20;
 
 
 for (int x = input; x > 0; x = x -1) {
-  if (x < 20 && x > 0 && (x != input/2 && x !=6)) {
+  if (x < input && x > 0 && (x != input/2 && x !=6)) {
     println(x);
   } else if (x == input/2) {
       println("HALF!");
