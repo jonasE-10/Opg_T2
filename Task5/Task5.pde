@@ -46,7 +46,7 @@ void methodTwo()
   }
   
   // Print the name of the weekday here: 
-  switch(weekDay) {
+  /*switch(weekDay) { // første forsøg
     case 0:
       println("Monday");
       break;
@@ -69,7 +69,27 @@ void methodTwo()
       println("Sunday");
       break;
     
+  }*/
+  
+  // efter gennemgang
+  String dayName = "";
+  switch(weekDay) {
+    case 0: dayName = "Monday";
+      break;
+    case 1: dayName = "Tuesday";
+      break;
+    case 2: dayName = "Wednesday";
+      break;
+    case 3: dayName = "Thursday";
+      break;
+    case 4: dayName = "Friday";
+      break;
+    case 5: dayName = "Saturday";
+      break;
+    case 6: dayName = "Sunday";
+      break;
   }
+  println("Today is " + dayName);
     
     
   // Print if it is weekend here:
